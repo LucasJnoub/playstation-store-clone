@@ -1,0 +1,33 @@
+.menu-bar-container{
+        display: flex;
+        flex-direction: row;
+        /* position: fixed; */
+        /* z-index: 1; */
+        background-color: #fff;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+
+}
+.menu-bar-item > ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.menu-bar-item a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.menu-bar-item a:hover{
+    color: blue;
+    font-weight: 600;
+}
+.menu-bar-logo>img{
+    width: 310px;
+    height: 60px;
+}
